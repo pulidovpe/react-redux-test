@@ -11,6 +11,22 @@
 # production
 /build
 
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 # misc
 .DS_Store
 .env.local
@@ -21,3 +37,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# credentials ##
+.env
+auth.js*
+server_crt.pem
+server_key.pem
+localhost.crt
+localhost.key
+package-lock.json
